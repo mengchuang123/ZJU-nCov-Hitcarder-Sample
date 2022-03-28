@@ -18,7 +18,7 @@ jobs:
             serverchan_key: SERVERCHAN_KEY
     steps:
       - name: Working
-        uses: mengchuang123/ZJU-hitCard@master
+        uses: mengchuang123/ZJU-hitCard@python
         with:
           username: ${{ secrets[matrix.username] }}
           password: ${{ secrets[matrix.password] }}
